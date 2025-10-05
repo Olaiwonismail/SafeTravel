@@ -67,7 +67,7 @@ export function ReportIncidentDialog({ open, onOpenChange }: ReportIncidentDialo
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-[500px] z-[100]">
+      <DialogContent className="z-[9999] sm:max-w-[500px]">
         {isSuccess ? (
           <div className="flex flex-col items-center justify-center py-8">
             <CheckCircle2 className="h-16 w-16 text-accent mb-4" />
