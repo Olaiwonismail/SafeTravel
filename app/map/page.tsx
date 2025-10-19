@@ -225,7 +225,7 @@ const safetyAreas: SafetyArea[] = [
     tips: ["Guided tours available", "Police presence high", "Stick to main attractions"],
   }
 ]
-
+ 
 export default function MapPage() {
   const [selectedArea, setSelectedArea] = useState<SafetyArea | null>(null)
   const [isReportDialogOpen, setIsReportDialogOpen] = useState(false)
